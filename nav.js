@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     <ul class="nav-links" id="navLinks">
       <li><a href="/practice-areas/index.html">Practice Areas</a></li>
       <li><a href="/case-results/index.html">Client Reviews</a></li>
-      <li><a href="/about/index.html">About</a></li>
       <li><a href="/meet-the-attorney/index.html">Attorney</a></li>
       <li><a href="/contact/index.html">Contact</a></li>
       <li><a href="tel:8668114255" class="nav-cta">(866) 811-4255</a></li>
