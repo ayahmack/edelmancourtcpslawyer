@@ -11,6 +11,17 @@
 <body>
 <script src="/nav.js"></script>
 
+<!-- Thank you banner -->
+<div id="thanks-banner" style="display:none;background:#1a4a1a;color:#fff;text-align:center;padding:16px 24px;font-size:15px;font-weight:700;">
+  ✅ Thank you — your message was received. An attorney will contact you shortly. For urgent matters call <a href="tel:8668114255" style="color:#7dff7d;">(866) 811-4255</a>.
+</div>
+<script>
+  if (window.location.search.includes('thanks=1')) {
+    document.getElementById('thanks-banner').style.display = 'block';
+    window.scrollTo(0,0);
+  }
+</script>
+
 <div class="breadcrumb">
   <div class="container">
     <a href="/index.html">Home</a><span>›</span> Contact
@@ -42,7 +53,10 @@
         <div class="gold-line left"></div>
         <p style="color:#3d4e63;margin-bottom:28px;">Fill out the form below and an attorney will contact you as soon as possible — typically within one hour during business hours. For emergencies, please call <a href="tel:8668114255" style="color:var(--gold);font-weight:700;">(866) 811-4255</a> directly.</p>
 
-        <form action="https://formspree.io/f/edelmancourtcpslawyer" method="POST" style="display:flex;flex-direction:column;gap:0;">
+        <form action="https://formspree.io/f/mwvapdge" method="POST" style="display:flex;flex-direction:column;gap:0;">
+          <input type="hidden" name="_subject" value="New CPS Defense Inquiry — Edelman Court" />
+          <input type="hidden" name="_next" value="https://edelmancourtcpslawyer.com/contact/?thanks=1" />
+          <input type="text" name="_gotcha" style="display:none" />
           <div class="form-grid">
             <div class="form-group">
               <label for="first_name">First Name *</label>
