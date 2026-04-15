@@ -15,9 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
     </a>
     <button class="nav-toggle" aria-label="Menu">&#9776;</button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="/cps-defense/index.html">CPS Defense</a></li>
-      <li><a href="/juvenile-dependency/index.html">Juvenile Dependency</a></li>
-      <li><a href="/dcfs-defense/index.html">DCFS Defense</a></li>
+      <li><a href="/practice-areas/index.html">Practice Areas</a></li>
+      <li><a href="/case-results/index.html">Client Reviews</a></li>
       <li><a href="/about/index.html">About</a></li>
       <li><a href="/meet-the-attorney/index.html">Attorney</a></li>
       <li><a href="/contact/index.html">Contact</a></li>
@@ -36,11 +35,11 @@ document.addEventListener('DOMContentLoaded', function () {
       <div>
         <h4>Practice Areas</h4>
         <ul>
-          <li><a href="/cps-defense/index.html">CPS Defense</a></li>
-          <li><a href="/juvenile-dependency/index.html">Juvenile Dependency</a></li>
-          <li><a href="/dcfs-defense/index.html">DCFS Defense</a></li>
-          <li><a href="/detention-hearing-attorney/index.html">Detention Hearings</a></li>
-          <li><a href="/false-cps-allegations/index.html">False Allegations</a></li>
+          <li><a href="/practice-areas/index.html">CPS Defense</a></li>
+          <li><a href="/practice-areas/index.html#dcfs-defense">DCFS Defense</a></li>
+          <li><a href="/practice-areas/index.html#juvenile-dependency">Juvenile Dependency</a></li>
+          <li><a href="/practice-areas/index.html#detention-hearing">Detention Hearings</a></li>
+          <li><a href="/practice-areas/index.html#false-allegations">False Allegations</a></li>
           <li><a href="/case-results/index.html">Case Results</a></li>
         </ul>
       </div>
