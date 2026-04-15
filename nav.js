@@ -45,9 +45,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <div>
         <h4>Office Locations</h4>
         <ul>
-          <li><span style="color:#8da3c0;">Orange (Main)</span><br><span style="color:#5d7291;font-size:13px;">333 City Blvd W, Suite 1742<br>Orange, CA 92868</span></li>
-          <li style="margin-top:10px;"><span style="color:#8da3c0;">Riverside</span><br><span style="color:#5d7291;font-size:13px;">11801 Pierce St, Suite 200<br>Riverside, CA 92505</span></li>
-          <li style="margin-top:10px;"><span style="color:#8da3c0;">Palm Desert</span><br><span style="color:#5d7291;font-size:13px;">77711 Flora Rd, Suite 309<br>Palm Desert, CA 92211</span></li>
+          <li><a href="https://maps.app.goo.gl/3MbvewKAiWzmP4LF9" target="_blank" rel="noopener" style="color:#8da3c0;">Los Angeles<br><span style="color:#5d7291;font-size:13px;">10880 Wilshire Blvd, Suite 1101<br>Los Angeles, CA 90024</span></a></li>
+          <li style="margin-top:10px;"><a href="https://maps.app.goo.gl/yq7qY15xKeRMKh717" target="_blank" rel="noopener" style="color:#8da3c0;">Beverly Hills<br><span style="color:#5d7291;font-size:13px;">9465 Wilshire Blvd, Suite 300<br>Beverly Hills, CA 90212</span></a></li>
+          <li style="margin-top:10px;"><a href="https://maps.app.goo.gl/ZRgfpkm7vjLAiaRr8" target="_blank" rel="noopener" style="color:#8da3c0;">Orange<br><span style="color:#5d7291;font-size:13px;">333 City Blvd W, Suite 1742<br>Orange, CA 92868</span></a></li>
         </ul>
       </div>
       <div>
